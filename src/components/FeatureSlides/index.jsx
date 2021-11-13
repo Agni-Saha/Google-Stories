@@ -11,6 +11,7 @@ function RenderImages({ activeFeatureIndex }) {
     <img
       className={cn({ "as-primary": activeFeatureIndex === index })}
       key={imageUrl}
+      alt="basic_images"
       style={{ backgroundImage: `url(${imageUrl})` }}
     />
   ));
